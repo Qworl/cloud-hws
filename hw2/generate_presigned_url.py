@@ -19,7 +19,7 @@ url = s3.generate_presigned_url(
     Params={
         'Bucket': bucket_name,
         'Key': 'index.html',
-        'VersionId': '0006432B019859D8'
+        'VersionId': '000645522DE539B4'
     },
     ExpiresIn=3600  # срок в секундах
 )
